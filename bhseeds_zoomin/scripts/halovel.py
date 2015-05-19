@@ -27,4 +27,3 @@ if yt.is_root():
         halosvel.append(vals)
     halosvel = np.array(halosvel)
     np.savetxt('halosvel_latest.txt',halosvel) 
-   

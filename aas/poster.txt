@@ -1,0 +1,29 @@
+Introduction:
+
+The discovery of bright quasars at redshft z>=6 in the Sloan Digital Sky Survey(SDSS) implies that black holes(BHs)as massive as 10^9 Msun were already assembled within 1 Gyr. Generically, these SMBHs are thought to have assembled by mergers with other BHs and by gas accretion onto less massive seed BHs. One candidate of such seed BHs are Pop III stellar remnants.  
+
+
+
+The first generation of stars (Population III) form from metal free gas in dark matter halos with M~10^6 Msun and have a large characteristic mass, which lead to their short lifetimes. Pop III more massive than 260 Msun or less than 140 Msun may directly collapse to form black holes. Accretion onto these massive Pop III BHs is a feasible way to form z > 7 quasars and is also an important source of X-ray radiation in high redshifts. These X-rays may preheat and pre-ionize a large volume of the IGM.
+
+In order to map out plausible scenarios such massive objects form from Pop III remnants, we run a cosmolgoical adaptive refinement mesh simulation of an overdense region of about 300 Mpc^3, which forms a few 10^9 Msun dark matter halos and over 13000 PopIII stars by redshift 15. Then we focus on one of these massive halos, containing 20 Pop III stellar renmants, to study the dynamical behavior of these BH seed candidates. Here we report on the evolution of the orbital properties of stellar-mass seed BHs in one of the first galaxies.  They are distributed throughout the halo, creating a swarm of BHs, gradually falling toward the halo center through dynamical friction.  #From these characteristics, we estimate the BH merger rate in this particular galaxy, which is an important quantity to assess during the early buildup of massive BHs.
+
+
+
+
+Background
+
+
+Method
+
+We perform the simulation using adaptive mesh refinement(AMR) cosmological hydrodynamics code Enzo. Adaptive ray tracing is used for the radiation transfer.
+We generate the initial conditions for the simulation using MUSIC with cosmological parameters from the 7-year WMAP.
+
+We use a comoving simulation box of (40 Mpc)^3 that has a 512^3 root grid resolution and three levels of static nested grids.
+
+dark matter mass resolution of 2.9 x 10^4 Msun inside the highest nested grid with a comoving volume of 5.2x7.0x8.3 Mpc^3. During the course of the simulation, we allow a maximum refinement level of 12, resulting in a maximal resolution of 19 comoving pc.
+
+
+Conclusion & on going work
+
+
