@@ -1,0 +1,9 @@
+\begin{thebibliography}{1}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{{Turk} {et~al}\mbox{.}(2011){Turk}, {Smith}, {Oishi}, {Skory},
+  {Skillman}, {Abel}, \& {Norman}}]{yt_full_paper}
+{Turk} M.~J., {Smith} B.~D., {Oishi} J.~S., {Skory} S., {Skillman} S.~W.,
+  {Abel} T., {Norman} M.~L., 2011, \apjs, 192, 9
+
+\end{thebibliography}
