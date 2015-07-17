@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.1)  17 JUL 2015 13:18
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.1)  17 JUL 2015 19:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -172,39 +172,74 @@ Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
-)) (./macros.tex)
-(./ms.aux)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count101
+\float@exts=\toks18
+\float@box=\box55
+\@float@everytoks=\toks19
+\@floatcapt=\box56
+)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen122
+\captionmargin@=\dimen123
+\captionwidth=\dimen124
+\caption@tempdima=\dimen125
+\caption@indent=\dimen126
+\caption@parindent=\dimen127
+\caption@hangindent=\dimen128
+\abovecaptionskip=\skip53
+\belowcaptionskip=\skip54
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+)
+
+Package caption Warning: Unsupported document class (or package) detected,
+(caption)                usage of the caption package is not recommended.
+See the caption package documentation for explanation.
+
+Package caption Info: \@makecaption = undefined.
+\c@ContinuedFloat=\count102
+Package caption Info: float package is loaded.
+) (./macros.tex) (./ms.aux)
 \openout1 = `ms.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 24.
- (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 25.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count101
-\scratchdimen=\dimen122
-\scratchbox=\box55
-\nofMPsegments=\count102
-\nofMParguments=\count103
-\everyMPshowfont=\toks18
-\MPscratchCnt=\count104
-\MPscratchDim=\dimen123
-\MPnumerator=\count105
-\makeMPintoPDFobject=\count106
-\everyMPtoPDFconversion=\toks19
+\scratchcounter=\count103
+\scratchdimen=\dimen129
+\scratchbox=\box57
+\nofMPsegments=\count104
+\nofMParguments=\count105
+\everyMPshowfont=\toks20
+\MPscratchCnt=\count106
+\MPscratchDim=\dimen130
+\MPnumerator=\count107
+\makeMPintoPDFobject=\count108
+\everyMPtoPDFconversion=\toks21
 ) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -253,163 +288,168 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 37.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 38.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 37.
+(Font)              <14.4> on input line 38.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 37.
-LaTeX Font Info:    Try loading font information for U+eur on input line 37.
+(Font)              <7> on input line 38.
+LaTeX Font Info:    Try loading font information for U+eur on input line 38.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/ueur.fd
 File: ueur.fd 2013/01/14 v3.01 Euler Roman
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 37.
+LaTeX Font Info:    Try loading font information for U+msa on input line 38.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 37.
+(Font)              <8> on input line 38.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 37.
+(Font)              <6> on input line 38.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 37.
+(Font)              <5> on input line 38.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 40.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 41.
 
-Underfull \hbox (badness 10000) in paragraph at lines 40--41
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
 
  []
 
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 43.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 44.
 <./plots/rad_dist3.png, id=1, 867.24pt x 867.24pt>
 File: ./plots/rad_dist3.png Graphic file (type png)
  <use ./plots/rad_dist3.png>
 Package pdftex.def Info: ./plots/rad_dist3.png used on input line 86.
-(pdftex.def)             Requested size: 240.0pt x 239.99368pt.
+(pdftex.def)             Requested size: 192.00073pt x 191.99759pt.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 87.
 
 <./plots/rad_dist14.png, id=3, 867.24pt x 867.24pt>
 File: ./plots/rad_dist14.png Graphic file (type png)
 
 <use ./plots/rad_dist14.png>
-Package pdftex.def Info: ./plots/rad_dist14.png used on input line 89.
-(pdftex.def)             Requested size: 240.0pt x 239.99368pt.
+Package pdftex.def Info: ./plots/rad_dist14.png used on input line 90.
+(pdftex.def)             Requested size: 192.00073pt x 191.99759pt.
 
 <./plots/rad_dist22.png, id=4, 867.24pt x 867.24pt>
 File: ./plots/rad_dist22.png Graphic file (type png)
 
 <use ./plots/rad_dist22.png>
-Package pdftex.def Info: ./plots/rad_dist22.png used on input line 92.
-(pdftex.def)             Requested size: 240.0pt x 239.99368pt.
+Package pdftex.def Info: ./plots/rad_dist22.png used on input line 94.
+(pdftex.def)             Requested size: 192.00073pt x 191.99759pt.
 
 <./plots/radist_mass7.png, id=5, 578.16pt x 433.62pt>
 File: ./plots/radist_mass7.png Graphic file (type png)
 
 <use ./plots/radist_mass7.png>
-Package pdftex.def Info: ./plots/radist_mass7.png used on input line 96.
-(pdftex.def)             Requested size: 240.0pt x 179.99525pt.
+Package pdftex.def Info: ./plots/radist_mass7.png used on input line 99.
+(pdftex.def)             Requested size: 192.00073pt x 143.99489pt.
 
-<./plots/radist_mass8.png, id=6, 578.16pt x 433.62pt>
-File: ./plots/radist_mass8.png Graphic file (type png)
+Underfull \hbox (badness 10000) in paragraph at lines 82--101
+\T1/ptm/m/n/9 Radial dis-tri-bu-tion of seed BHs at dif-fer-ent stages:
+ []
 
-<use ./plots/radist_mass8.png>
-Package pdftex.def Info: ./plots/radist_mass8.png used on input line 100.
-(pdftex.def)             Requested size: 240.0pt x 179.99525pt.
 
-<./plots/radist_mass9.png, id=7, 578.16pt x 433.62pt>
-File: ./plots/radist_mass9.png Graphic file (type png)
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<use ./plots/radist_mass9.png>
-Package pdftex.def Info: ./plots/radist_mass9.png used on input line 104.
-(pdftex.def)             Requested size: 240.0pt x 179.99525pt.
 
-<./plots/bhsorb_new.png, id=8, 1951.29pt x 867.24pt>
-File: ./plots/bhsorb_new.png Graphic file (type png)
+Overfull \vbox (24.4635pt too high) has occurred while \output is active []
 
-<use ./plots/bhsorb_new.png>
-Package pdftex.def Info: ./plots/bhsorb_new.png used on input line 109.
-(pdftex.def)             Requested size: 240.0pt x 106.65797pt.
-
-<./plots/P0173_y_D.png, id=9, 834.7185pt x 693.792pt>
-File: ./plots/P0173_y_D.png Graphic file (type png)
-
-<use ./plots/P0173_y_D.png>
-Package pdftex.def Info: ./plots/P0173_y_D.png used on input line 118.
-(pdftex.def)             Requested size: 240.0pt x 199.47952pt.
-
-<./plots/P0224_y_D.png, id=10, 834.7185pt x 693.792pt>
-File: ./plots/P0224_y_D.png Graphic file (type png)
-
-<use ./plots/P0224_y_D.png>
-Package pdftex.def Info: ./plots/P0224_y_D.png used on input line 122.
-(pdftex.def)             Requested size: 240.0pt x 199.47952pt.
-
-<./plots/P0274_y_D.png, id=11, 834.7185pt x 693.792pt>
-File: ./plots/P0274_y_D.png Graphic file (type png)
-
-<use ./plots/P0274_y_D.png>
-Package pdftex.def Info: ./plots/P0274_y_D.png used on input line 126.
-(pdftex.def)             Requested size: 240.0pt x 199.47952pt.
- <./plots/L2.png, id=12, 578.16pt x 433.62pt>
-File: ./plots/L2.png Graphic file (type png)
-
-<use ./plots/L2.png>
-Package pdftex.def Info: ./plots/L2.png used on input line 131.
-(pdftex.def)             Requested size: 240.0pt x 179.99525pt.
- (./ms.bbl)
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 144.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 147.
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 147.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 101.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 101.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <8> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 147.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 101.
  [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
-]
+ <./plots/rad_dist3.png>]
+<./plots/radist_mass8.png, id=23, 578.16pt x 433.62pt>
+File: ./plots/radist_mass8.png Graphic file (type png)
+
+<use ./plots/radist_mass8.png>
+Package pdftex.def Info: ./plots/radist_mass8.png used on input line 104.
+(pdftex.def)             Requested size: 192.00073pt x 143.99489pt.
+
+<./plots/radist_mass9.png, id=24, 578.16pt x 433.62pt>
+File: ./plots/radist_mass9.png Graphic file (type png)
+
+<use ./plots/radist_mass9.png>
+Package pdftex.def Info: ./plots/radist_mass9.png used on input line 109.
+(pdftex.def)             Requested size: 192.00073pt x 143.99489pt.
+
+<./plots/bhsorb_new.png, id=25, 1951.29pt x 867.24pt>
+File: ./plots/bhsorb_new.png Graphic file (type png)
+
+<use ./plots/bhsorb_new.png>
+Package pdftex.def Info: ./plots/bhsorb_new.png used on input line 115.
+(pdftex.def)             Requested size: 192.00073pt x 85.32637pt.
+
+<./plots/P0173_y_D.png, id=26, 834.7185pt x 693.792pt>
+File: ./plots/P0173_y_D.png Graphic file (type png)
+
+<use ./plots/P0173_y_D.png>
+Package pdftex.def Info: ./plots/P0173_y_D.png used on input line 125.
+(pdftex.def)             Requested size: 192.00073pt x 159.57938pt.
+
+<./plots/P0224_y_D.png, id=27, 834.7185pt x 693.792pt>
+File: ./plots/P0224_y_D.png Graphic file (type png)
+
+<use ./plots/P0224_y_D.png>
+Package pdftex.def Info: ./plots/P0224_y_D.png used on input line 130.
+(pdftex.def)             Requested size: 192.00073pt x 159.57938pt.
+
+<./plots/P0274_y_D.png, id=28, 834.7185pt x 693.792pt>
+File: ./plots/P0274_y_D.png Graphic file (type png)
+
+<use ./plots/P0274_y_D.png>
+Package pdftex.def Info: ./plots/P0274_y_D.png used on input line 135.
+(pdftex.def)             Requested size: 192.00073pt x 159.57938pt.
+ <./plots/L2.png, id=29, 578.16pt x 433.62pt>
+File: ./plots/L2.png Graphic file (type png)
+
+<use ./plots/L2.png>
+Package pdftex.def Info: ./plots/L2.png used on input line 141.
+(pdftex.def)             Requested size: 192.00073pt x 143.99489pt.
+ (./ms.bbl) [2 <./plots/rad_dist14.png> <./plots/rad_dist22.png> <./plots/radis
+t_mass7.png> <./plots/radist_mass8.png> <./plots/radist_mass9.png> <./plots/bhs
+orb_new.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+ [3
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [2 <./plots/rad_dist3.png> <./plots/rad_dist14.png> <./plots/rad_dist22.png> <
-./plots/radist_mass7.png> <./plots/radist_mass8.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [3 <./plots/radist_mass9.png> <./plots/bhsorb_new.png> <./plots/P0173_y_D.png>
- <./plots/P0224_y_D.png> <./plots/P0274_y_D.png> <./plots/L2.png>] (./ms.aux) )
- 
+ <./plots/P0173_y_D.png> <./plots/P0224_y_D.png> <./plots/P0274_y_D.png> <./plo
+ts/L2.png>] (./ms.aux) ) 
 Here is how much of TeX's memory you used:
- 3177 strings out of 495028
- 40265 string characters out of 6181497
- 107090 words of memory out of 5000000
- 6299 multiletter control sequences out of 15000+600000
+ 4271 strings out of 495028
+ 59870 string characters out of 6181497
+ 126002 words of memory out of 5000000
+ 7383 multiletter control sequences out of 15000+600000
  54842 words of font info for 78 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
- 38i,14n,34p,240b,272s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-msy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msa
-m10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ms.pdf (3 pages, 2337348 bytes).
+ 38i,14n,38p,240b,272s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.
+enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/
+times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on ms.pdf (3 pages, 2337555 bytes).
 PDF statistics:
  82 PDF objects out of 1000 (max. 8388607)
  43 compressed objects within 1 object stream

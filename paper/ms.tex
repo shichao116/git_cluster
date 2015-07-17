@@ -15,7 +15,8 @@
 
 
 %%%%%%%% Begin custom definitions %%%%%%%%%%%%%
-
+\usepackage{float}
+\usepackage{caption}
 \input macros.tex
 \voffset=-1.4cm
 \graphicspath{{./plots/}}
@@ -79,34 +80,39 @@
 
 \subsection{Stacked Analysis}
 Radial distribution of seed BHs at different stages:
-%\begin{figure}
-%  \includegraphics[scale=0.3]{rad_dist22.png}
-%\end{figure}
+\begin{minipage}{\linewidth}
+\makebox[\linewidth]{ 
+  \includegraphics[keepaspectratio=true,width=0.8\linewidth]{rad_dist3.png}
+}
+\end{minipage}
 \begin{figure}
-  \plotone{rad_dist3.png}
+  \centering
+  \includegraphics[width=0.8\columnwidth]{rad_dist14.png}
 \end{figure}
 \begin{figure}
-  \plotone{rad_dist14.png}
-\end{figure}
-\begin{figure}
-  \plotone{rad_dist22.png}
+  \centering
+  \includegraphics[width=0.8\columnwidth]{rad_dist22.png}
 \end{figure}
 Radial distribution of seed BHs of the final time step in different mass ranges:
 \begin{figure}
-  \plotone{radist_mass7.png}
+  \centering
+  \includegraphics[width=0.8\columnwidth]{radist_mass7.png}
 \end{figure}
 
 \begin{figure}
-  \plotone{radist_mass8.png}
+  \centering
+  \includegraphics[width=0.8\columnwidth]{radist_mass8.png}
 \end{figure}
 
 \begin{figure}
-  \plotone{radist_mass9.png}
+  \centering
+  \includegraphics[width=0.8\columnwidth]{radist_mass9.png}
 \end{figure}
 
 Orbital properties:
 \begin{figure}
-  \plotone{bhsorb_new.png}
+  \centering
+  \includegraphics[width=0.8\columnwidth]{bhsorb_new.png}
 \end{figure}
 
 
@@ -115,20 +121,24 @@ Orbital properties:
 
 Seed BHs position:
 \begin{figure}
-  \plotone{P0173_y_D.png}
+  \centering
+  \includegraphics[width=0.8\columnwidth]{P0173_y_D.png}
 \end{figure}
 
 \begin{figure}
-  \plotone{P0224_y_D.png}
+  \centering
+  \includegraphics[width=0.8\columnwidth]{P0224_y_D.png}
 \end{figure}
 
 \begin{figure}
-  \plotone{P0274_y_D.png}
+  \centering
+  \includegraphics[width=0.8\columnwidth]{P0274_y_D.png}
 \end{figure}
 Angular momentum evolution:
 
 \begin{figure}
-  \plotone{L2.png}
+  \centering
+  \includegraphics[width=0.8\columnwidth]{L2.png}
 \end{figure}
 
 
