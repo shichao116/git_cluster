@@ -1,0 +1,44 @@
+Rockstar
+* New version with native Enzo support.  yt is no longer needed.
+* Clone repository at https://bitbucket.org/jwise77/rockstar-galaxies
+* Use "make with_hdf5" to build it
+* Run attached "run_rockstar.py" script to create configuration files for rockstar, which will create rockstar.cfg and pfs.dat.  You will have to modify the number of readers and writers.
+* Modify the attached batch script to submit the job.
+
+Paper
+* Remake histograms of radial distributions of Pop III remnants with lines (not bars) with all halos (already done), halos with log(M/Msun) = <7, 7-8, and >8.
+* See Pengfei's paper for a guide on how to write an analysis paper. http://iopscience.iop.org/0004-637X/795/2/144/pdf/apj_795_2_144.pdf
+* If you're unsure what to write, like a physical explanation of the trends, just make a note of it in the manuscript.
+* I will make a template for the paper and post it to bitbucket.  Use mercurial or git for version control of the paper.
+* See how the eccentricity distribution changes in a Monte Carlo simulation by randomly selecting half of the BHs and remaking the distribution.  Repeat this ~100 times to determine whether or not the shape changes.  A figure showing this probably won't be included in the paper, but we will mention it in the text.
+
+
+
+Figures:
+
+Here are the preliminary changes that I would like you to make to your figures in the paper.
+
+1. The two sets of radial distribution plots (bar and line plots) are redundant.  They show the same thing with one being normalized.  I think the line plots are better.  You can show these normalized histograms in one plot with different mass ranges shown by a different lines.  Make the lines with different colors and line styles.  Also make the line width 2 pixels.  Also, show the total distribution for all halos in the same plot.  I would make this line solid black for all the halos.
+
+The figure needs to have a legend instead of the labels that are currently shown.  Also, the font sizes in the axes need to be much bigger.  You can do this by issuing these two lines before you import matplotlib.
+
+from matplotlib import rc
+rc('font', size=24)
+
+Also, I would like you to double-check the centers of the halos and the relative positions of the BHs because I would expect the distribution to peak at the center (r~0).  You can investigate a few halos in the Rarepeak with some projections and overplotting the halo center and BH positions.
+
+2. Eccentricity and semi-major axis plot: Turn these into normalized line plots, just like point #1.  Make the font size larger.  Put the x-axis for the semi-major axis in proper pc and restrict the axis range from 1 to 1000.  I also think it would be good to show the distributions in halo mass bins, just like how to did with the radial distances. Last, you should make this figure with 2 panels with a shared y-axis, like the 3rd example in
+
+http://matplotlib.org/examples/pylab_examples/subplots_demo.html
+
+but with no space between the panels.
+
+3. Projections and BH locations: Make the projections of cubic regions instead of spheres.  It makes for a better figure without the whitespace.  Also, make the projections density-weighted instead of column densities.  Make sure that the projected units are in g/cm^3. These figures should be shown in a multi-panel figure, like
+
+http://yt-project.org/docs/dev/cookbook/complex_plots.html#time-series-multipanel
+
+4. Angular momentum plot: Don't make any changes to this until you've finished your analysis with rockstar again.
+
+5. Oh, I forgot to mention one more point that affects most of the figures.  It's best to make the figures in EPS format to use vector graphics instead of bitmaps.  Please do this for all of the figures except for the projections (PNGs are find for them since they are images).
+
+
