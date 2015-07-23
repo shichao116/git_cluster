@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.1)  17 JUL 2015 19:51
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.1)  23 JUL 2015 00:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -321,138 +321,156 @@ Underfull \hbox (badness 10000) in paragraph at lines 41--42
 
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 44.
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--74
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--81
+
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 83.
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--85
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--93
+
+ []
+
 <./plots/rad_dist3.png, id=1, 867.24pt x 867.24pt>
 File: ./plots/rad_dist3.png Graphic file (type png)
  <use ./plots/rad_dist3.png>
-Package pdftex.def Info: ./plots/rad_dist3.png used on input line 86.
+Package pdftex.def Info: ./plots/rad_dist3.png used on input line 101.
 (pdftex.def)             Requested size: 192.00073pt x 191.99759pt.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 87.
 
 <./plots/rad_dist14.png, id=3, 867.24pt x 867.24pt>
 File: ./plots/rad_dist14.png Graphic file (type png)
 
 <use ./plots/rad_dist14.png>
-Package pdftex.def Info: ./plots/rad_dist14.png used on input line 90.
+Package pdftex.def Info: ./plots/rad_dist14.png used on input line 105.
 (pdftex.def)             Requested size: 192.00073pt x 191.99759pt.
 
 <./plots/rad_dist22.png, id=4, 867.24pt x 867.24pt>
 File: ./plots/rad_dist22.png Graphic file (type png)
 
 <use ./plots/rad_dist22.png>
-Package pdftex.def Info: ./plots/rad_dist22.png used on input line 94.
+Package pdftex.def Info: ./plots/rad_dist22.png used on input line 109.
 (pdftex.def)             Requested size: 192.00073pt x 191.99759pt.
 
 <./plots/radist_mass7.png, id=5, 578.16pt x 433.62pt>
 File: ./plots/radist_mass7.png Graphic file (type png)
 
 <use ./plots/radist_mass7.png>
-Package pdftex.def Info: ./plots/radist_mass7.png used on input line 99.
+Package pdftex.def Info: ./plots/radist_mass7.png used on input line 114.
 (pdftex.def)             Requested size: 192.00073pt x 143.99489pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--101
+Underfull \hbox (badness 10000) in paragraph at lines 97--116
 \T1/ptm/m/n/9 Radial dis-tri-bu-tion of seed BHs at dif-fer-ent stages:
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Overfull \vbox (24.4635pt too high) has occurred while \output is active []
-
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 101.
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 101.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 116.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 116.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <8> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 101.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 116.
  [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
- <./plots/rad_dist3.png>]
-<./plots/radist_mass8.png, id=23, 578.16pt x 433.62pt>
+]
+<./plots/radist_mass8.png, id=24, 578.16pt x 433.62pt>
 File: ./plots/radist_mass8.png Graphic file (type png)
 
 <use ./plots/radist_mass8.png>
-Package pdftex.def Info: ./plots/radist_mass8.png used on input line 104.
+Package pdftex.def Info: ./plots/radist_mass8.png used on input line 119.
 (pdftex.def)             Requested size: 192.00073pt x 143.99489pt.
 
-<./plots/radist_mass9.png, id=24, 578.16pt x 433.62pt>
+<./plots/radist_mass9.png, id=25, 578.16pt x 433.62pt>
 File: ./plots/radist_mass9.png Graphic file (type png)
 
 <use ./plots/radist_mass9.png>
-Package pdftex.def Info: ./plots/radist_mass9.png used on input line 109.
+Package pdftex.def Info: ./plots/radist_mass9.png used on input line 124.
 (pdftex.def)             Requested size: 192.00073pt x 143.99489pt.
 
-<./plots/bhsorb_new.png, id=25, 1951.29pt x 867.24pt>
+<./plots/bhsorb_new.png, id=26, 1951.29pt x 867.24pt>
 File: ./plots/bhsorb_new.png Graphic file (type png)
 
 <use ./plots/bhsorb_new.png>
-Package pdftex.def Info: ./plots/bhsorb_new.png used on input line 115.
+Package pdftex.def Info: ./plots/bhsorb_new.png used on input line 130.
 (pdftex.def)             Requested size: 192.00073pt x 85.32637pt.
 
-<./plots/P0173_y_D.png, id=26, 834.7185pt x 693.792pt>
+<./plots/P0173_y_D.png, id=27, 834.7185pt x 693.792pt>
 File: ./plots/P0173_y_D.png Graphic file (type png)
 
 <use ./plots/P0173_y_D.png>
-Package pdftex.def Info: ./plots/P0173_y_D.png used on input line 125.
+Package pdftex.def Info: ./plots/P0173_y_D.png used on input line 140.
 (pdftex.def)             Requested size: 192.00073pt x 159.57938pt.
 
-<./plots/P0224_y_D.png, id=27, 834.7185pt x 693.792pt>
+<./plots/P0224_y_D.png, id=28, 834.7185pt x 693.792pt>
 File: ./plots/P0224_y_D.png Graphic file (type png)
 
 <use ./plots/P0224_y_D.png>
-Package pdftex.def Info: ./plots/P0224_y_D.png used on input line 130.
+Package pdftex.def Info: ./plots/P0224_y_D.png used on input line 145.
 (pdftex.def)             Requested size: 192.00073pt x 159.57938pt.
 
-<./plots/P0274_y_D.png, id=28, 834.7185pt x 693.792pt>
+<./plots/P0274_y_D.png, id=29, 834.7185pt x 693.792pt>
 File: ./plots/P0274_y_D.png Graphic file (type png)
 
 <use ./plots/P0274_y_D.png>
-Package pdftex.def Info: ./plots/P0274_y_D.png used on input line 135.
+Package pdftex.def Info: ./plots/P0274_y_D.png used on input line 150.
 (pdftex.def)             Requested size: 192.00073pt x 159.57938pt.
- <./plots/L2.png, id=29, 578.16pt x 433.62pt>
+ <./plots/L2.png, id=30, 578.16pt x 433.62pt>
 File: ./plots/L2.png Graphic file (type png)
 
 <use ./plots/L2.png>
-Package pdftex.def Info: ./plots/L2.png used on input line 141.
+Package pdftex.def Info: ./plots/L2.png used on input line 156.
 (pdftex.def)             Requested size: 192.00073pt x 143.99489pt.
- (./ms.bbl) [2 <./plots/rad_dist14.png> <./plots/rad_dist22.png> <./plots/radis
-t_mass7.png> <./plots/radist_mass8.png> <./plots/radist_mass9.png> <./plots/bhs
-orb_new.png>]
+ (./ms.bbl) [2 <./plots/rad_dist14.png> <./plots/rad_dist22.png> <./plots/rad_d
+ist3.png> <./plots/radist_mass7.png> <./plots/radist_mass8.png> <./plots/radist
+_mass9.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [3
-
- <./plots/P0173_y_D.png> <./plots/P0224_y_D.png> <./plots/P0274_y_D.png> <./plo
-ts/L2.png>] (./ms.aux) ) 
+ [3 <./plots/bhsorb_new.png> <./plots/P0173_y_D.png> <./plots/P0224_y_D.png> <.
+/plots/P0274_y_D.png> <./plots/L2.png>] (./ms.aux) ) 
 Here is how much of TeX's memory you used:
  4271 strings out of 495028
  59870 string characters out of 6181497
- 126002 words of memory out of 5000000
+ 127002 words of memory out of 5000000
  7383 multiletter control sequences out of 15000+600000
  54842 words of font info for 78 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
  38i,14n,38p,240b,272s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.
-enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/
-times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ms.pdf (3 pages, 2337555 bytes).
+{/usr/share/texlive/texmf-d
+ist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/ti
+mes/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb
+>
+Output written on ms.pdf (3 pages, 2353330 bytes).
 PDF statistics:
- 82 PDF objects out of 1000 (max. 8388607)
- 43 compressed objects within 1 object stream
+ 90 PDF objects out of 1000 (max. 8388607)
+ 49 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  56 words of extra memory for PDF output out of 10000 (max. 10000000)
 

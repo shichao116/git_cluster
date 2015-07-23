@@ -1,3 +1,12 @@
+TO DO:
+1. Redo the figures
+2. Writing text.
+3. Collect and read references
+
+
+
+
+
 Rockstar
 * New version with native Enzo support.  yt is no longer needed.
 * Clone repository at https://bitbucket.org/jwise77/rockstar-galaxies
