@@ -17,6 +17,7 @@
 %%%%%%%% Begin custom definitions %%%%%%%%%%%%%
 \usepackage{float}
 \usepackage{caption}
+\usepackage{amsmath}
 \input macros.tex
 \voffset=-1.4cm
 \graphicspath{{./plots/}}
@@ -103,21 +104,52 @@ best fit (Komatsu et al. 2011):$\Omega_M=0.266, \ \Omega_{\Lambda}=0.734,\
 \Omega_b=0.0449,\ h = 0.71,\ \sigma_8=0.81,\ \mbox{and}\ n=0.963$, where the
 variables have the usual definitions. We use a comoving simulation volume of
 $(40\mbox{Mpc})^3$ that has a $512^2$ root grid resolution and three initial
-nested grids each with mass resolution of $2.9\times 10^4\mbox{M}_{\odot}$. The
-finest nested grid has a comoving voulme of $5.2\times 7.0 \times 8.3\ 
+nested grids each with mass resolution eight times higher in each nested grid,
+which corresponds to an effective inital resolution of $4096^3$ and dark
+matter(DM) mass resolution of $2.9\times 10^4\mbox{M}_{\odot}$. The
+comoving voulme of a finest nested grid is $5.2\times 7.0 \times 8.3\ 
 \mbox{Mpc}^3(302\ \mbox{Mpc}^3)$. Further refinement in the Lagrangian volume of
 the finest nested grid is allowed up to a maximum AMR level $l = 12$, giving a
 maximal spatial resolution of 19 comoving pc. Refinement occurred when either a
 baryon or DM overdensity of $4\times\Omega_{\{\textrm{b,DM\}}}\rho_cN^{l(1+\phi)}$
 , where $N=2$ is the refinement factor , and $\phi=-0.1$ allows more aggressive
-refinement at higher densities, i.e., super-Lagrangian behavior.
+refinement at higher densities, i.e., super-Lagrangian behavior. At $z=15$
+where the simulation ends, we have a large number (~1000) of halos with
+$M>10^8\mbox{M}_\odot$, three of which with $M>10^9\mbox{M}_\odot$, in the
+Lagrangian region with a comoving volume of 
+$3.8\times5.4\times6.6\mbox{Mpc}^3(135\mbox{Mpc}^3)$. \\
+At this point, new formation of Pop III stars delines rapidly while the
+formation rate metal-enriched stars continues to increase. Pop III and
+metal-enriched stars have different formation and feedback models, distinguished
+by the total metallicity of the densest star-forming cell. The former are formed
+if [Z/H] < -4, and the latter are formed otherwise. The star formation and
+feedback models are the same as the ``RP'' simulation in Wise et al.(2012a),
+except that the characteristic mass $M_{char} = 40\mbox{M}_{\odot}$ of the Pop
+III inital mass function(IMF), whereas Wise et al. used $100\mbox{M}_{\odot}$.
+The Pop III stellar masses are randomly sampled from an IMF
+\begin{gather}
+  f(\log M)dM =
+  M^{-1.4}\exp\left[-\left(\frac{M_{char}}{M}\right)^{1.6}\right]dM
+\end{gather}
+that behaves as a power-law IMF at $M > M_{char}$ and is cutoff exponentially
+below that mass(Chabrier 2003). Latest results of Pop III stars formation
+simulation shows that choosing $M_{char}$ this way is more consistent(e.g. Turk
+et al. 2009; Greif et al. 2011; Hriano et al. 2013; Susa 2013; Susa 2014).
+Metal-enriched star formation is modeled as in Wise \& Cen(2009), which is
+similar to the Pop III prescription without the requirement of minimum
+$\mbox{H}_2$ fraction. This requirement is not valid in this case because the
+metal-enriched gas can efficiently cool even in the presence of a strong UV
+radiation field(e.g. Safranek-Shrader et al. 2010). Star formation is restricted
+to cold gas, with temperatures $T < 1000 K$. Pop III star particles represent
+individual stars, whereas metal-enriched star particles represent a star cluster
+of some total mass and an presumed normal (i.e., Kroupa) IMF minimum and maximum
+stellar masses inferred in the Milky Way. The minimum mass of a star particle is
+set to $m_{\star,min} = 1000 \mbox{M}_{\odot}$. The star particle does not
+provide any and continues to accrete until it reaches $m_{\star,min}$.
 
+%Further zoom-in simulation description
 
-%*Cosmological parameters($\delta$ -- overdensity), $\Omega s$, size of sim box\\
-%DM mass resolution, time span(in terms of redshift)\\
-
-*Further zoom-in simulation description\\
-*John's simulation on Bluewater(for more representative massive halos)
+%John's simulation on Bluewater(for more representative massive halos)
 \subsection{Orbital Elements}
 *approximation: key orbital properties of seed BHs: semi-major axes and
 eccentricities\\
